@@ -1,0 +1,422 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar{
+    
+    background-color: #316dc3;
+    padding: 5px;
+    margin right:5px;
+    color: white;
+    
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+a{
+    text-decoration: none;
+
+}
+.topicon a {
+    
+     padding:3px;
+     margin: 0px;
+     color: white;
+     font-size: 20px;
+}
+
+
+.text{
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 0px 15px;
+}
+
+
+.showinline{
+    display: inline-block;
+}
+.headbutton a {
+    background-color:hsl(180, 19%, 93%);
+    color:rgb(106, 139, 29);
+    margin: 0px 5px;
+    padding: 2px;
+}
+
+
+.container{
+    /* width:90; */
+    margin: 0px 5px;
+    
+} 
+
+.header{
+   
+     background: rgba(250, 250, 250, 0.938);
+   
+    padding: 0px  0px;
+    margin: 0px 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+     position: ;
+    
+}
+.header{
+     display:flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+/* 
+.showinline2{
+    display: inline-block;
+    padding: 2px  20px;  
+    
+} */
+
+ul>li{
+    display:inline-block;
+}
+
+.logo{
+    padding: 3px 10px;
+    margin:8px  0px;
+    
+   
+}
+.navibar {
+     margin-top: 0px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     
+}
+.navibar li a {
+    border-radius:25px;
+    /* width: auto; */
+    padding: 10px 8px;
+    margin: 5px;
+    text-align: center;
+    border-style: hidden;
+    color: rgb(35, 36, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+ul li a:hover{
+    color: white;
+    background-color: #316dc3;
+    
+}
+
+#active {
+     background-color: #316dc3;
+    color:white;
+
+}
+.image{
+    margin: auto 5px;
+   
+   
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.slideline{
+   
+    background-color:#316dc3;
+    color: white;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    margin-left: auto;
+
+}
+.slideline{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+   
+}
+.green{
+    color: rgb(15, 226, 15);
+}
+
+.intro{
+    text-align: center;
+    width:auto;
+     padding: 100px;
+     margin:8px 0px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.blue{
+    font-family: 'Franklin Gothic Medium';
+    color:#1458b8; 
+    font-size: 35px;
+}
+.lightgreen{
+    font-family: sans-serif;
+    color: rgb(69, 182, 69);
+    font-size: 35px;
+}
+
+.line{
+    font-size: 25px;
+    color: green;
+}
+.para{
+     text-align: justify;
+    line-height: 20px;
+    color: gray;
+}
+
+.container3{
+    background-color: rgb(51, 51, 246);
+    color: white;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.gree{
+    color: rgb(139, 240, 38);
+    letter-spacing: 1px;
+}  
+.inline{
+    display: inline-block;
+    text-align: center;
+}
+.icons{
+    padding: 20px ;
+    margin-top: 50px;
+}
+.large{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: normal;
+   padding: 15px;
+}
+.fontsize{
+    font-family: Georgia;
+    font-weight: bold;
+    line-height: 25px;
+}   
+.container4{
+   background-color:rgb(240, 240, 240);
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.what{
+    text-align: center;
+    padding: 5px;
+}
+.onlineimages{
+    background-color:rgb(255, 255, 255);
+    width: 250px;
+    height: 130px;
+    text-align: center;
+    padding: 25px;
+    margin: 15px;
+    
+}
+.textonline{
+    color: royalblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 5;
+    
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 5;
+    margin-bottom: 15px;
+}
+.container5{
+    width: auto;
+    padding: 20px;
+    
+}
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h3{
+    padding: 15px;
+    margin:10px  5px;
+}
+.working{
+    background-color:rgb(235, 235, 235);
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+   
+}  
+
+.basic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.level1,.level2{
+    margin-top: 10px;
+}
+.level1,.level2{
+    padding: 2px;
+}
+.spacing{
+    padding-top: 8px;
+    margin-top: 15px;
+}
+
+.fontsame{
+    text-align: justify;
+    margin:  15px; 
+    padding: 10px;
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.up{
+    width: 350px;
+}
+
+.miss{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(39, 89, 238);
+}
+.info{
+    height: 150px;
+    font-size: 15px;
+    padding:5px;
+    color: rgb(161, 157, 157);
+    flex-wrap: wrap;
+}
+
+.container7{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imagegallery{
+    text-align: center;
+    padding-top: 50px;
+}
+.imageworker{
+    padding-left: 25px;
+    margin-top: 15px;
+}
+.container8{
+    background-color: rgb(36, 35, 34);
+     height: 300px;
+     padding-top: 50px;
+     margin-top: 100px;
+   
+}
+.container8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.colorfont{
+    color: rgb(181, 180, 182);
+    line-height: 26px;
+}
+.iconcolor{
+     color: green;
+   
+}
+.useful{
+    color:white;
+    text-decoration: underline;
+   line-height: 25px;
+    
+  
+}
+.conect{
+    color:white;
+  
+}
+.iconend a {
+    border-radius: 35px;
+    background-color: royalblue;
+    padding:10px;
+    margin: 5px;
+    margin-top:0px;
+    font-size: 15px;
+   color: white;
+}
+
+footer{
+    background-color: royalblue;
+    height: 30px;
+    color: white;
+    padding: 20px;
+
+}
+.top a {
+    position: fixed;
+    color-adjust:none;
+    top:600px;
+    right: 10px;
+
+    
+}
